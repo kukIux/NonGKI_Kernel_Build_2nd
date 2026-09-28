@@ -1,0 +1,12 @@
+# Приклад ключових змінних (підправ під актуальну гілку murali)
+KERNEL_SOURCE: https://github.com/muralivijay/kernel_xiaomi_spes
+KERNEL_BRANCH: main-a16-sm8250-base   # або інша робоча гілка
+KERNEL_NAME: spes
+DEVICE_CODENAME: spes
+KERNEL_ARCH: arm64
+DEFCONFIG: vendor/bengal_defconfig    # або spes_defconfig / spes-perf_defconfig (перевір у дереві)
+CLANG_VERSION: ...                    # дивись, який Clang використовує murali
+KERNELSU: ReSukiSU                    # або SukiSU / Next — NonGKI_Build підтримує
+SUSFS: true
+PACK_METHOD: Anykernel3
+# + інші змінні з Variable Reference у Wiki проєкту
