@@ -148,3 +148,9 @@ jobs:
       fail-fast: true
     uses: ./.github/workflows/build-redmi-note11pro-5g-aosp-a16.yml
     secrets: inherit
+  build-redmi-note11-spes-aosp:
+    name: "Xiaomi Redmi Note 11 (spes/spesn)"
+    strategy:
+      fail-fast: true
+    uses: ./.github/workflows/build-redmi-note11-spes-aosp.yml
+    secrets: inherit
