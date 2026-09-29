@@ -13,7 +13,7 @@ env:
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
   KERNEL_SOURCE : "https://github.com/muralivijay/kernel_xiaomi_spes.git"
-  KERNEL_BRANCH : "main-a16-sm8250-base"
+  KERNEL_BRANCH : "main-a16-sm8250-base-ksun-susfs"
 
   CLANG_SOURCE : "https://github.com/kdrag0n/proton-clang.git"
   CLANG_BRANCH : "master"
@@ -30,7 +30,7 @@ env:
   DEFCONFIG_FROM_BOOT: false
 
   KERNELSU_SOURCE : ""
-  KERNELSU_BRANCH : "main-a16-sm8250-base"
+  KERNELSU_BRANCH : ""
 
   KERNELSU_AUTO_GET : "true"
   KERNELSU_AUTO_FORK : "resukisu"
