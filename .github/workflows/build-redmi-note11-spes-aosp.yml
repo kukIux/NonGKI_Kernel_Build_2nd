@@ -78,7 +78,7 @@ env:
   GENERATE_CHIP: "qcom"
 
   BUILD_DEBUGGER: "false"
-  SKIP_PATCH: "false"
+  SKIP_PATCH: "true"
 
   BUILD_OTHER_CONFIG: "false"
   MERGE_CONFIG_FILES: ""
