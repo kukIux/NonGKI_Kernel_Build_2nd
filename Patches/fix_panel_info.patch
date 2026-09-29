@@ -1,9 +1,0 @@
---- a/drivers/gpu/drm/drm_sysfs.c
-+++ b/drivers/gpu/drm/drm_sysfs.c
-@@ -268,7 +268,7 @@ static DEVICE_ATTR_RO(edid);
- static DEVICE_ATTR_RO(modes);
- static DEVICE_ATTR_RO(enabled);
- static DEVICE_ATTR_RO(status);
--static DEVICE_ATTR_RO(panel_info);
-+//static DEVICE_ATTR_RO(panel_info);
- static DEVICE_ATTR_RO(connector_id);
