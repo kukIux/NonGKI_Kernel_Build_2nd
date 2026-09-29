@@ -30,7 +30,7 @@ env:
   DEFCONFIG_FROM_BOOT: false
 
   KERNELSU_SOURCE : ""
-  KERNELSU_BRANCH : ""
+  KERNELSU_BRANCH : "main-a16-sm8250-base"
 
   KERNELSU_AUTO_GET : "true"
   KERNELSU_AUTO_FORK : "resukisu"
