@@ -61,9 +61,6 @@ env:
   PATCHES_SOURCE: "JackA1ltman/NonGKI_Kernel_Patches"
   PATCHES_BRANCH: "mi_kernel"
 
-  SUSFS_FOLDER_FIXED: ""
-  SUSFS_PATCH_FIXED: ""
-
   REKERNEL_ENABLE: "false"
   DROIDSPACES_ENABLE: "false"
   NOMOUNT_ENABLE: "false"
